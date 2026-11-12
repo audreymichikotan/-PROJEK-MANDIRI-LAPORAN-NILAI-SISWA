@@ -24,7 +24,7 @@ int main() {
 
     if (jumlahSiswa <= 0) {
         cout << "Jumlah siswa tidak valid!" << endl;
-        return 1;
+        continue;
     }
 
     
